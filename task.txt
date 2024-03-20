@@ -1,0 +1,61 @@
+Document object in javascript:
+      
+            1. It is an object of the browser. Each HTML document loaded into a browser window becomes a Document object.
+               The Document object provides access to all HTML elements in a page from within a script.
+            2. It is also part of the window object and can be accessed through the window document property.
+            3. Using document object :
+                    For Example:
+                            a.number of anchors also we can display, number of buttons we can display, 
+                              number of images we can display and the number of forms we can display.
+
+                              <!DOCTYPE html>
+                              <head>
+                                   <title>XYZ class</title>
+                              </head>
+                                 <body>
+                                    <img src = "html5.png" width = "100px">
+                                    <img src = "html5.png" width = "100px">
+                                    <img src = "html5.png" width = "100px">
+
+                                    <p>Number of images on the webpage:</p>
+                                    <script type = "text/javascript">
+                                    document.write(document.title);
+                                 </body>
+                             </html>
+
+            4. It contains information about the content of the page like the URL, the title, the content, and links.
+            5. All tags elements with attributes in html part of the document. It is part of BOM(browser object model)
+               and DOM(document object model).
+
+Window object in javascript:
+
+            1. It is an object of a window. The window object represents an open window in a browser.
+               If a document contains frames (<iframe> tags), the browser creates one window object for the HTML document,
+              and one additional window object for each frame.
+            2. The window object is created automatically by the browser that represents a window of a browser.
+               the window object is used to display the popup dialog box.
+                        Methods:
+                              a.alret()
+                              b.confirm()
+                              c.open()
+                              d.prompt()
+                              e.open()
+                              f.close()
+                              g.setTimeout() 
+
+            3. Create a window in javascript for example:
+                               <html>
+                                 <script>
+                                    function openWindow() {
+                                    window.open("", "", "width=300,height=200");
+                                    }
+                               </script>
+                                <body>
+                                    <b> Click the button to open a new window in the same tab </b>
+                                </body>
+                               </html>       
+
+            4. It contains information about the browser window like the size, the document, 
+               the window contains, and the Windows history.
+            5. We can access the window from the window only. The window is part of BOM, not DOM. 
+               Global objects functions and variables of javascript are members of the window object       

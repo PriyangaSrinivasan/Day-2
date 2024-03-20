@@ -1,0 +1,1 @@
+Difference between Document and window objects in javascript?
